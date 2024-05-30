@@ -1,0 +1,102 @@
+.atm-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .balance-section {
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .balance-section.balance {
+    font-size: 36px;
+    color: #337ab7;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  .input-section input {
+    padding: 12px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input-section button {
+    padding: 12px 20px;
+    margin-top: 2%;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .input-section button:hover {
+    background-color: #23527c;
+  }
+  
+  .button-section {
+    margin-bottom: 30px;
+  }
+  
+  .button-section button {
+    padding: 12px 20px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  .button-section button:hover {
+    background-color: #23527c;
+  }
+  
+  .transaction-history {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .transaction-history li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .transaction-history li:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-history.date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .transaction-history.amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .transaction-history.type {
+    font-size: 14px;
+    color: #666;
+  }
